@@ -1,0 +1,334 @@
+main {
+  width: 100%;
+  background: var(--main-color);
+  display: block;
+  margin: 0 auto 4rem;
+}
+.seminarios {
+  border-bottom: 0.2rem solid #fff;
+}
+.btn-sobreseminario {
+  margin-top: 2rem;
+}
+.btn-sobreseminario a {
+  border: 2px solid var(--color-meta-1);
+  background: var(--color-meta-1);
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 20px;
+  font-weight: 500;
+  border-radius: 25px;
+}
+.btn-sobreseminario a:hover {
+  background: var(--color-meta-2);
+  border: 2px solid var(--color-meta-2);
+  transition: 0.4s ease-in-out;
+}
+.div-title {
+  margin-bottom: 70px;
+  text-align: center;
+  background-image: URL("../img/portadas/foto-programa.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  position: relative;
+}
+.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 1200px;
+  height: max-content;
+  padding: 20px;
+  color: #fff;
+}
+.title h1 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+.title p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+}
+.linea-titulo {
+  margin: 1.5rem auto 0.5rem;
+  height: 0.2rem;
+  width: 30%;
+  background: var(--color-meta-1);
+}
+.div-color {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 400px;
+}
+.div-seminarios {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto 0;
+}
+.div-seminario {
+  line-height: 1.8rem;
+  width: 31.5%;
+  height: 450px;
+  margin-bottom: 6rem;
+}
+.seminario-title {
+  text-align: center;
+}
+.titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.seminario-title h2 {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.seminario-title h3 {
+  font-size: 16px;
+  font-weight: 200;
+  color: #fff;
+  text-transform: capitalize;
+  line-height: 1.5rem;
+}
+.seminario-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.seminario-btn a {
+  border: 2px solid #fff;
+  margin-top: 1.5rem;
+  color: #fff;
+  font-size: 15px;
+  padding: 5px 20px;
+  font-weight: 500;
+  border-radius: 25px;
+}
+.modulo-title h2 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.176em;
+  letter-spacing: -0.5px;
+}
+.barra {
+  margin-top: 0.5rem;
+  height: 0.3rem;
+  width: 8rem;
+  background: var(--color-terciary);
+  margin-bottom: 2.5rem;
+}
+.modulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* IMAGENES DE SEMINARIOS */
+.div-seminario {
+  overflow: hidden;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+.segundo {
+  display: none;
+}
+.seminario-title {
+  width: 100%;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  padding: 35px;
+}
+.seminario1 {
+  background-image: URL("../img/seminarios/seminario1.jpg");
+  transition: 1s ease-in-out;
+}
+.seminario1:hover {
+  background: var(--color-meta-1);
+  transition: 1s ease-in-out;
+}
+.seminario1:hover .primero {
+  display: none;
+}
+.seminario1:hover .segundo {
+  display: block;
+}
+.seminario2 {
+  background-image: URL("../img/seminarios/seminario2.jpg");
+  transition: 1s ease-in-out;
+}
+.seminario2:hover {
+  background: var(--color-meta-2);
+  transition: 1s ease-in-out;
+}
+.seminario2:hover .primero {
+  display: none;
+}
+.seminario2:hover .segundo {
+  display: block;
+}
+.seminario3 {
+  background-image: URL("../img/seminarios/seminario3.jpg");
+  transition: 1s ease-in-out;
+}
+.seminario3:hover {
+  background: var(--color-meta-3);
+  transition: 1s ease-in-out;
+}
+.seminario3:hover .primero {
+  display: none;
+}
+.seminario3:hover .segundo {
+  display: block;
+}
+.seminario4 {
+  background-image: URL("../img/seminarios/seminario4.jpg");
+  transition: 1s ease-in-out;
+}
+.seminario4:hover {
+  background: var(--color-meta-2);
+  transition: 1s ease-in-out;
+}
+.seminario4:hover .primero {
+  display: none;
+}
+.seminario4:hover .segundo {
+  display: block;
+}
+.seminario5 {
+  background-image: URL("../img/seminarios/seminario5.jpg");
+  transition: 1s ease-in-out;
+}
+.seminario5:hover {
+  background: var(--color-meta-3);
+  transition: 1s ease-in-out;
+}
+.seminario5:hover .primero {
+  display: none;
+}
+.seminario5:hover .segundo {
+  display: block;
+}
+.seminario6 {
+  background-image: URL("../img/seminarios/seminario6.jpg");
+  transition: 1s ease-in-out;
+}
+.seminario6:hover {
+  background: var(--color-meta-1);
+  transition: 1s ease-in-out;
+}
+.seminario6:hover .primero {
+  display: none;
+}
+.seminario6:hover .segundo {
+  display: block;
+}
+.seminario7 {
+  background-image: URL("../img/seminarios/seminario7.jpg");
+  transition: 1s ease-in-out;
+}
+.seminario7:hover {
+  background: var(--color-meta-3);
+  transition: 1s ease-in-out;
+}
+.seminario7:hover .primero {
+  display: none;
+}
+.seminario7:hover .segundo {
+  display: block;
+}
+.seminario8 {
+  background-image: URL("../img/seminarios/seminario8.jpg");
+  transition: 1s ease-in-out;
+}
+.seminario8:hover {
+  background: var(--color-meta-1);
+  transition: 1s ease-in-out;
+}
+.seminario8:hover .primero {
+  display: none;
+}
+.seminario8:hover .segundo {
+  display: block;
+}
+.seminario9 {
+  background-image: URL("../img/seminarios/seminario9.jpg");
+  transition: 1s ease-in-out;
+}
+.seminario9:hover {
+  background: var(--color-meta-2);
+  transition: 1s ease-in-out;
+}
+.seminario9:hover .primero {
+  display: none;
+}
+.seminario9:hover .segundo {
+  display: block;
+}
+@media screen and (max-width: 1000px) {
+  .div-seminario {
+    width: 48%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .div-title {
+    height: 340px;
+  }
+  .div-color {
+    height: 340px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .title h1 {
+    font-size: 1.5rem;
+  }
+  .modulo-title h2 {
+    font-size: 1.4rem;
+  }
+  .title p {
+    font-size: 1rem;
+  }
+  .seminario-title {
+    line-height: 1.7rem;
+  }
+  .seminario9,
+  .seminario8,
+  .seminario7,
+  .seminario6,
+  .seminario6,
+  .seminario5 {
+    padding: 2rem;
+  }
+  .div-seminarios {
+    width: 90%;
+  }
+  .div-seminario {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 550px) {
+  h2 {
+    font-size: 1.1rem;
+  }
+  .div-seminario {
+    width: 100%;
+  }
+  .seminario-text {
+    padding: 1.5rem 0;
+  }
+  .title p {
+    font-size: 0.9rem;
+  }
+}

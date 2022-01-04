@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+main {
+  min-height: 100vh; /*importante*/
+  position: relative; /*importante*/
+}
+:focus {
+  outline: transparent;
+  outline-style: none;
+}
+body {
+  background: var(--main-color);
+}
+a:visited {
+  color: var(--color-secondary);
+}
+/* ! ---- ---- ---- ---- ----   scroll up    ---- ---- ---- ---- ---- ! */
+.scrollup {
+  position: fixed;
+  right: 5rem;
+  height: 2rem;
+  bottom: -20%;
+  background-color: var(--color-secondary);
+  opacity: 0.8;
+  padding: 0 0.3rem;
+  border-radius: 50%;
+  z-index: 100;
+  transition: 0.4s;
+}
+.scrollup:hover {
+  border-color: var(--color-primary);
+}
+.scroll__icon {
+  font-size: 1.5rem;
+  margin-top: 0.25rem;
+  color: #fff;
+}
+.show-scroll {
+  bottom: 5rem;
+}
+@media screen and (max-width: 600px) {
+  .scrollup {
+    right: 2.5rem;
+  }
+}
+/* VARIABLES GLOBALES */
+:root {
+  --main-color: #f7f9fa;
+  --color-text: #7a7a7a;
+  --header-background: #00539d;
+  --super-header-background: #a4b036;
+  --footer-color: #dddddd;
+  --footer-background: #00539d;
+  --color-meta-1: #a4b036;
+  --color-meta-2: #ef5350;
+  --color-meta-3: #00bfba;
+  --color-primary: #fff;
+  --color-secondary: #00539d;
+  --color-terciary: #b5c12e;
+  --color-title: #829300;
+  --color-quarty: #ef5350;
+  --color-light: #54595f;
+  --color-hover: #548235;
+  --color-btn: #fff;
+  --color-border: #dbdee1;
+  --color-btn: #498af3;
+  --bgr-anuncio: #eeeeee;
+  --bgr-table-light: #fafbfc;
+}

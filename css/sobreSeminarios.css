@@ -1,0 +1,179 @@
+main {
+  width: 100%;
+  margin: 0 auto 4rem;
+  background: var(--main-color);
+  display: block;
+}
+.div-title {
+  margin-bottom: 70px;
+  text-align: center;
+  background-image: URL("../img/portadas/foto-programa.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  position: relative;
+}
+.div-color {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 400px;
+}
+.contenedor-cuerpo {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.title {
+  max-width: 1200px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: max-content;
+  padding: 20px;
+}
+.title h1 {
+  font-size: 34px;
+}
+.linea-titulo {
+  margin: 0.7rem auto;
+  height: 0.2rem;
+  width: 10rem;
+  background: var(--color-meta-1);
+}
+.linea2 {
+  margin-top: 0.7rem;
+  height: 0.4rem;
+  width: 5rem;
+  background: var(--color-meta-1);
+}
+.linea3 {
+  background: var(--color-secondary);
+  width: 1rem;
+  height: 100%;
+}
+.div-contenido {
+  line-height: 2rem;
+  padding-top: 54px;
+  padding: 0 1rem;
+  margin-bottom: 4rem;
+  color: #7a7a7a;
+}
+/* CONTENEDOR OBJETIVOS */
+.div-objetivos {
+  margin-bottom: 6rem;
+}
+h2 {
+  font-size: 34px;
+}
+.cont-objetivos {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: space-around;
+  width: 90%;
+  margin: 3rem auto;
+}
+.objetivo-info p {
+  color: #7a7a7a;
+  font-weight: 600;
+}
+.objetivo {
+  display: flex;
+  flex-direction: row;
+  line-height: 2rem;
+  width: 30%;
+}
+.objetivo-number {
+  font-size: 2.2rem;
+  color: var(--color-meta-2);
+  margin-right: 1rem;
+}
+/* CONTENEDOR PUBLICO */
+.div-publico {
+  margin-bottom: 6rem;
+}
+.publico-main {
+  margin: 2rem auto;
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.publico-linea {
+  width: 0.6%;
+  margin-right: 1rem;
+}
+.linea {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: #203b6a;
+}
+.publico-text {
+  width: 90%;
+  line-height: 2rem;
+  text-align: justify;
+  color: #7a7a7a;
+}
+.participantes-main {
+  margin: 6rem auto 0;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.participantes-main img {
+  margin: 0 auto;
+  width: 160px;
+  margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 800px) {
+  .sobreSeminarios {
+    border-bottom: 0;
+  }
+  .contenedor-cuerpo {
+    width: 80%;
+  }
+  .cont-objetivos {
+    flex-direction: column;
+  }
+  .objetivo {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .div-title {
+    height: 300px;
+  }
+  .div-color {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .title h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  .contenedor-cuerpo {
+    width: 90%;
+  }
+  .div-contenido {
+    padding-left: 0rem;
+  }
+  .div-title {
+    height: 300px;
+  }
+  .div-color {
+    height: 300px;
+  }
+}
